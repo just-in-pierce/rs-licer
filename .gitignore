@@ -1,0 +1,22 @@
+debug/
+*.pdb
+# Rust build artifacts
+/target
+Cargo.lock
+
+# Output files
+*.png
+*.stl
+slices/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug and temporary files
+debug/
+*.pdb

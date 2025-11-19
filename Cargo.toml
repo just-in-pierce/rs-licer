@@ -1,0 +1,18 @@
+[package]
+name = "rs-licer"
+version = "0.1.0"
+edition = "2025"
+
+[[bin]]
+name = "rs-licer"
+path = "src/main.rs"
+
+[dependencies]
+stl_io = "0.7"
+image = "0.24"
+rayon = "1.8"
+glam = "0.23"
+bvh = "0.7"
+iced = { version = "0.13", features = ["tokio", "image"] }
+rfd = "0.15"
+opener = "0.7"
