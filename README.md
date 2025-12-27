@@ -4,7 +4,7 @@
 
 # rs-licer
 
-A simple STL ray-tracing slicer written in Rust with a cross-platform GUI.
+A simple STL ray-casting slicer written in Rust with a cross-platform GUI.
 
 ## Requirements
 
